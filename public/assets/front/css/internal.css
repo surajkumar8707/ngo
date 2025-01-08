@@ -1,0 +1,1743 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    outline: 0 !important;
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    font-size: 16px;
+    color: #6e6b6b;
+    line-height: 28px;
+}
+
+html{
+scroll-behavior: smooth;
+}
+.site-logo {
+    width: 20%;
+}
+
+.site-logo img {
+    max-width: 600px;
+    max-height: 95px;
+}
+
+.widgetarea-head,
+.main-nav {
+    width: 40%;
+}
+
+.right-column {
+    width: 40%;
+}
+
+.basel-woocommerce-layered-nav .basel-scroll {
+    max-height: 280px;
+}
+
+
+/* Header height configs */
+
+
+/* Limit logo image height for according to header height */
+
+.site-logo img {
+    max-height: 95px;
+}
+
+
+/* And for sticky header logo also */
+
+.act-scroll .site-logo img,
+.header-clone .site-logo img {
+    max-height: 75px;
+}
+
+
+/* Set sticky headers height for cloned headers based on menu links line height */
+
+.header-clone .main-nav .menu>li>a {
+    height: 75px;
+    line-height: 75px;
+}
+
+
+/* Height for switch logos */
+
+.sticky-header-real:not(.global-header-menu-top) .switch-logo-enable .basel-logo {
+    height: 95px;
+}
+
+.sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable .basel-logo {
+    height: 75px;
+}
+
+.sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable {
+    transform: translateY(-75px);
+    -webkit-transform: translateY(-75px);
+}
+
+
+/* Header height for these layouts based on it's menu links line height */
+
+.main-nav .menu>li>a {
+    height: 95px;
+    line-height: 95px;
+}
+
+
+/* The same for sticky header */
+
+.act-scroll .main-nav .menu>li>a {
+    height: 75px;
+    line-height: 75px;
+}
+
+
+/* Set line height for header links for shop header layout. Based in the header height option */
+
+.header-shop .right-column .header-links {
+    height: 95px;
+    line-height: 95px;
+}
+
+
+/* The same for sticky header */
+
+.header-shop.act-scroll .right-column .header-links {
+    height: 75px;
+    line-height: 75px;
+}
+
+
+/* Page headings settings for heading overlap. Calculate on the header height base */
+
+.basel-header-overlap .title-size-default,
+.basel-header-overlap .title-size-small,
+.basel-header-overlap .title-shop.without-title.title-size-default,
+.basel-header-overlap .title-shop.without-title.title-size-small {
+    padding-top: 135px;
+}
+
+.basel-header-overlap .title-shop.without-title.title-size-large,
+.basel-header-overlap .title-size-large {
+    padding-top: 215px;
+}
+
+@media (max-width: 991px) {
+    /* Set header height for mobile devices */
+    .main-header .wrapp-header {
+        min-height: 60px;
+    }
+    /* Limit logo image height for mobile according to mobile header height */
+    .site-logo img {
+        max-height: 60px;
+    }
+    /* Limit logo on sticky header. Both header real and header cloned */
+    .act-scroll .site-logo img,
+    .header-clone .site-logo img {
+        max-height: 60px;
+    }
+    /* Height for switch logos */
+    .main-header .switch-logo-enable .basel-logo {
+        height: 60px;
+    }
+    .sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable .basel-logo {
+        height: 60px;
+    }
+    .sticky-header-real:not(.global-header-menu-top) .act-scroll .switch-logo-enable {
+        transform: translateY(-60px);
+        -webkit-transform: translateY(-60px);
+    }
+    /* Page headings settings for heading overlap. Calculate on the MOBILE header height base */
+    .basel-header-overlap .title-size-default,
+    .basel-header-overlap .title-size-small,
+    .basel-header-overlap .title-shop.without-title.title-size-default,
+    .basel-header-overlap .title-shop.without-title.title-size-small {
+        padding-top: 80px;
+    }
+    .basel-header-overlap .title-shop.without-title.title-size-large,
+    .basel-header-overlap .title-size-large {
+        padding-top: 120px;
+    }
+}
+
+#menu-kapilmain2 li a {
+    color: #000;
+    font-size: 13px !important;
+}
+
+.basel-products-element .products .product-grid-item .product-element-top a img {
+    background-image: url(#/wp-content/uploads/2017/01/bg_website1.jpg);
+}
+
+.product_cat-generic-non-woven-box-bags .product-element-top a img {
+    background-image: url(#/wp-content/uploads/2017/01/bg_website1.jpg);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .color-scheme-light .right-column .basel-burger,
+    .color-scheme-light .right-column .basel-burger:after,
+    .color-scheme-light .right-column .basel-burger:before {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 480px) {
+    .color-scheme-light .right-column .basel-burger,
+    .color-scheme-light .right-column .basel-burger:after,
+    .color-scheme-light .right-column .basel-burger:before {
+        background-color: #000;
+    }
+}
+
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.header-shop .site-logo .header-shop .main-nav {
+    padding-right: 1px;
+}
+
+.widgetarea-head,
+.main-nav {
+    width: 46%;
+}
+
+.product-design-alt .product_meta {
+    display: none
+}
+
+.product-grid-item .product-title a {
+    font-size: 17px
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td {
+    text-align: left;
+}
+
+.table {
+    width: 80%;
+    margin-left: 19%;
+}
+
+.single-product-content .entry-summary .button.compare {
+    visibility: hidden;
+}
+
+.topbar-wrapp .social-icons {
+    float: right;
+}
+
+.product-title a,
+.post-slide .entry-title a,
+.category-grid-item .hover-mask h3,
+.basel-search-full-screen .basel-search-inner input[type="text"],
+.blog-post-loop .entry-title,
+.single-product-content .entry-title,
+.font-title {
+    font-weight: 900
+}
+
+.cat-design-default .hover-mask h3 {
+    font-size: 12px;
+}
+
+.basel-navigation .menu>li.menu-item-design-default .sub-sub-menu {
+    width: 200px;
+}
+
+.main-header .site-logo img {
+    padding-top: 0px;
+}
+
+.footer-container.color-scheme-light ul li a {
+    color: white;
+    font-size: 15px;
+}
+
+.cat-design-alt .hover-mask>h3 {
+    font-size: 17px;
+}
+
+.title-size-small .entry-title,
+.title-size-small h1 {
+    font-size: 27px;
+}
+
+.website-wrapper {
+    background-color: #f9f9f9;
+}
+
+.title-size-small {
+    padding: 0px 0;
+}
+
+embed,
+iframe,
+img,
+object,
+video {
+    max-width: 100%;
+}
+
+.topbar-wrapp .top-bar-left {
+    text-align: left;
+}
+
+.vc_custom_1540464314970 {
+    padding-bottom: 0px !important;
+}
+
+.shop-loop-head .woocommerce-ordering {
+    display: none;
+}
+
+.basel-navigation .menu>li.menu-item-design-default ul li a {
+    text-transform: capitalize;
+}
+
+.product-design-alt .entry-summary .yith-wcwl-add-to-wishlist {
+    display: none;
+}
+
+.menu-label {
+    top: 45%;
+    right: 85%;
+}
+
+.menu-label-hot {
+    background-color: red;
+}
+
+.basel-navigation .menu>li.menu-item-design-default ul li a {
+    font-size: 14px;
+}
+
+.social-icons li i {
+    font-size: 25px;
+}
+
+.main-page-wrapper {
+    background: white;
+}
+
+.header-shop .right-column .header-links {
+    display: none;
+}
+
+.basel-counter.counter-default .counter-value {
+    display: none;
+}
+
+.menu-label {
+    right: 70%;
+}
+
+</style><style type="text/css" title="dynamic-css" class="options-output">.page-title-default {
+    background-color: #1aada3;
+}
+
+.topbar-wrapp {
+    background-color: #1468b3;
+}
+
+.main-header,
+.sticky-header.header-clone,
+.header-spacing {
+    background-color: #ffffff;
+}
+
+.footer-container {
+    background-color: #000000;
+    background-image: url('./images/new-1.jpg');
+}
+.main-footer h5.widget-title {
+    color: #a2ac7a !important;
+}
+.main-footer .textwidget img {
+    max-width: 300px;
+    float: left;
+    margin-left: -70px;
+}
+body,
+p,
+.widget_nav_mega_menu .menu>li>a,
+.mega-navigation .menu>li>a,
+.basel-navigation .menu>li.menu-item-design-full-width .sub-sub-menu li a,
+.basel-navigation .menu>li.menu-item-design-sized .sub-sub-menu li a,
+.basel-navigation .menu>li.menu-item-design-default .sub-menu li a,
+.font-default {
+    font-family: Hind;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+table th,
+.wc-tabs li a,
+.masonry-filter li a,
+.woocommerce .cart-empty,
+.basel-navigation .menu>li.menu-item-design-full-width .sub-menu>li>a,
+.basel-navigation .menu>li.menu-item-design-sized .sub-menu>li>a,
+fieldset legend,
+table th,
+.color-scheme-dark .info-box-inner h1,
+.color-scheme-dark .info-box-inner h2,
+.color-scheme-dark .info-box-inner h3,
+.color-scheme-dark .info-box-inner h4,
+.color-scheme-dark .info-box-inner h5,
+.color-scheme-dark .info-box-inner h6 {
+    font-family: Palanquin;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.product-title a,
+.post-slide .entry-title a,
+.category-grid-item .hover-mask h3,
+.basel-search-full-screen .basel-search-inner input[type="text"],
+.blog-post-loop .entry-title,
+.single-product-content .entry-title,
+.font-title {
+    font-family: Palanquin;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.title-alt,
+.subtitle,
+.font-alt,
+.type-post .entry-meta {
+    font-family: Lato, 'Comic Sans MS', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-nav .menu>li>a {
+    font-family: Palanquin;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.color-primary,
+.mobile-nav ul li.current_page_item>a,
+.main-nav .menu>li.current-menu-item>a,
+.main-nav .menu>li.onepage-link.current-menu-item>a,
+.main-nav .menu>li>a:hover,
+.main-nav .menu>li>a:focus,
+.basel-navigation .menu>li.menu-item-design-default ul li:hover>a,
+.basel-navigation .menu>li.menu-item-design-full-width .sub-menu li a:hover,
+.basel-navigation .menu>li.menu-item-design-sized .sub-menu li a:hover,
+.basel-product-categories.responsive-cateogires li.current-cat>a,
+.basel-product-categories.responsive-cateogires li.current-cat-parent>a,
+.basel-product-categories.responsive-cateogires li.current-cat-ancestor>a,
+a[href^=tel],
+.topbar-menu ul>li>.sub-menu-dropdown li>a:hover,
+.btn.btn-color-primary.btn-style-bordered,
+.button.btn-color-primary.btn-style-bordered,
+button.btn-color-primary.btn-style-bordered,
+.added_to_cart.btn-color-primary.btn-style-bordered,
+input[type=submit].btn-color-primary.btn-style-bordered,
+.basel-dark .single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before,
+.basel-dark .single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before,
+.basel-dark .read-more-section .btn-read-more,
+.basel-dark .products-footer .basel-blog-load-more,
+.basel-dark .products-footer .basel-products-load-more,
+.basel-dark .products-footer .basel-portfolio-load-more,
+.basel-dark .blog-footer .basel-blog-load-more,
+.basel-dark .blog-footer .basel-products-load-more,
+.basel-dark .blog-footer .basel-portfolio-load-more,
+.basel-dark .portfolio-footer .basel-blog-load-more,
+.basel-dark .portfolio-footer .basel-products-load-more,
+.basel-dark .portfolio-footer .basel-portfolio-load-more,
+.basel-dark .color-primary,
+.basel-hover-link .swap-elements .btn-add a,
+.basel-hover-link .swap-elements .btn-add a:hover,
+.basel-hover-link .swap-elements .btn-add a:focus,
+.menu-item-language .submenu-languages li:hover a,
+.blog-post-loop .entry-title a:hover,
+.blog-post-loop.sticky .entry-title:before,
+.post-slide .entry-title a:hover,
+.comments-area .reply a,
+.single-post-navigation a:hover,
+blockquote footer:before,
+blockquote cite,
+.format-quote .entry-content blockquote cite,
+.format-quote .entry-content blockquote cite a,
+.type-post .entry-meta .meta-author a,
+.search-no-results.woocommerce .site-content:before,
+.search-no-results .not-found .entry-header:before,
+.login .lost_password>a:hover,
+.error404 .page-title,
+.menu-label-new:after,
+.widget_shopping_cart .product_list_widget li .quantity .amount,
+.product_list_widget li ins .amount,
+.price ins>.amount,
+.price ins,
+.single-product-content .price,
+.single-product-content .price .amount,
+.basel-products-nav .product-short .price,
+.basel-products-nav .product-short .price .amount,
+.star-rating span:before,
+.single-product-content .comment-form .stars span a:hover,
+.single-product-content .comment-form .stars span a.active,
+.tabs-layout-accordion .basel-tab-wrapper .basel-accordion-title:hover,
+.tabs-layout-accordion .basel-tab-wrapper .basel-accordion-title.active,
+.single-product-content .woocommerce-product-details__short-description ul>li:before,
+.single-product-content #tab-description ul>li:before,
+.blog-post-loop .entry-content ul>li:before,
+.comments-area .comment-list li ul>li:before,
+.sidebar-widget li a:hover,
+.filter-widget li a:hover,
+.sidebar-widget li>ul li a:hover,
+.filter-widget li>ul li a:hover,
+.basel-price-filter ul li a:hover .amount,
+.basel-hover-effect-4 .swap-elements>a,
+.basel-hover-effect-4 .swap-elements>a:hover,
+.wishlist_table tr td.product-price ins .amount,
+.basel-buttons .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse>a,
+.basel-buttons .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse>a,
+.basel-buttons .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse>a:hover,
+.basel-buttons .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse>a:hover,
+.single-product-content .entry-summary .yith-wcwl-add-to-wishlist a:hover,
+.single-product-content .entry-summary .yith-wcwl-add-to-wishlist a:hover:before,
+.single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse a:before,
+.single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse a:before,
+.single-product-content .entry-summary .yith-wcwl-add-to-wishlist .yith-wcwl-add-button.feid-in>a:before,
+.vendors-list ul li a:hover,
+.single-product-content .entry-summary .button.compare:hover,
+.single-product-content .entry-summary .button.compare:hover:before,
+.single-product-content .entry-summary .button.compare.added:before,
+.blog-post-loop .entry-content ul li:before,
+.basel-menu-price .menu-price-price,
+.basel-menu-price.cursor-pointer:hover .menu-price-title,
+.comments-area #cancel-comment-reply-link:hover,
+.comments-area .comment-body .comment-edit-link:hover,
+.popup-quick-view .entry-summary .entry-title a:hover,
+.wpb_text_column ul:not(.social-icons)>li:before,
+.widget_product_categories .basel-cats-toggle:hover,
+.widget_product_categories .toggle-active,
+.widget_product_categories .current-cat-parent>a,
+.widget_product_categories .current-cat>a,
+.woocommerce-checkout-review-order-table tfoot .order-total td .amount,
+.widget_shopping_cart .product_list_widget li .remove:hover,
+.basel-active-filters .widget_layered_nav_filters ul li a .amount,
+.title-wrapper.basel-title-color-primary .title-subtitle,
+.widget_shopping_cart .widget_shopping_cart_content>.total .amount,
+.color-scheme-light .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tab.vc_active>a,
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic .vc_tta-tab.vc_active>a {
+    color: #de4641;
+}
+
+.right-column .wishlist-info-widget>a>span,
+.basel-cart-design-2>a .basel-cart-number,
+.basel-cart-design-3>a .basel-cart-number,
+.btn.btn-color-primary,
+.button.btn-color-primary,
+button.btn-color-primary,
+.added_to_cart.btn-color-primary,
+input[type=submit].btn-color-primary,
+.btn.btn-color-primary:hover,
+.btn.btn-color-primary:focus,
+.button.btn-color-primary:hover,
+.button.btn-color-primary:focus,
+button.btn-color-primary:hover,
+button.btn-color-primary:focus,
+.added_to_cart.btn-color-primary:hover,
+.added_to_cart.btn-color-primary:focus,
+input[type=submit].btn-color-primary:hover,
+input[type=submit].btn-color-primary:focus,
+.btn.btn-color-primary.btn-style-bordered:hover,
+.btn.btn-color-primary.btn-style-bordered:focus,
+.button.btn-color-primary.btn-style-bordered:hover,
+.button.btn-color-primary.btn-style-bordered:focus,
+button.btn-color-primary.btn-style-bordered:hover,
+button.btn-color-primary.btn-style-bordered:focus,
+.added_to_cart.btn-color-primary.btn-style-bordered:hover,
+.added_to_cart.btn-color-primary.btn-style-bordered:focus,
+input[type=submit].btn-color-primary.btn-style-bordered:hover,
+input[type=submit].btn-color-primary.btn-style-bordered:focus,
+.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout,
+.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:hover,
+.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:focus,
+.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button,
+.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:hover,
+.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:focus,
+.no-results .searchform #searchsubmit,
+.no-results .searchform #searchsubmit:hover,
+.no-results .searchform #searchsubmit:focus,
+.comments-area .comment-respond input[type=submit],
+.comments-area .comment-respond input[type=submit]:hover,
+.comments-area .comment-respond input[type=submit]:focus,
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a,
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:hover,
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:focus,
+.woocommerce .checkout_coupon .button,
+.woocommerce .checkout_coupon .button:hover,
+.woocommerce .checkout_coupon .button:focus,
+.woocommerce .place-order input[type=submit],
+.woocommerce .place-order input[type=submit]:hover,
+.woocommerce .place-order input[type=submit]:focus,
+.woocommerce-order-pay #order_review .button,
+.woocommerce-order-pay #order_review .button:hover,
+.woocommerce-order-pay #order_review .button:focus,
+.woocommerce input[name=track],
+.woocommerce input[name=track]:hover,
+.woocommerce input[name=track]:focus,
+.woocommerce input[name=save_account_details],
+.woocommerce input[name=save_address],
+.woocommerce-page input[name=save_account_details],
+.woocommerce-page input[name=save_address],
+.woocommerce input[name=save_account_details]:hover,
+.woocommerce input[name=save_account_details]:focus,
+.woocommerce input[name=save_address]:hover,
+.woocommerce input[name=save_address]:focus,
+.woocommerce-page input[name=save_account_details]:hover,
+.woocommerce-page input[name=save_account_details]:focus,
+.woocommerce-page input[name=save_address]:hover,
+.woocommerce-page input[name=save_address]:focus,
+.search-no-results .not-found .entry-content .searchform #searchsubmit,
+.search-no-results .not-found .entry-content .searchform #searchsubmit:hover,
+.search-no-results .not-found .entry-content .searchform #searchsubmit:focus,
+.error404 .page-content>.searchform #searchsubmit,
+.error404 .page-content>.searchform #searchsubmit:hover,
+.error404 .page-content>.searchform #searchsubmit:focus,
+.woocommerce .return-to-shop .button,
+.woocommerce .return-to-shop .button:hover,
+.woocommerce .return-to-shop .button:focus,
+.basel-hover-excerpt .btn-add a,
+.basel-hover-excerpt .btn-add a:hover,
+.basel-hover-excerpt .btn-add a:focus,
+.basel-hover-standard .btn-add>a,
+.basel-hover-standard .btn-add>a:hover,
+.basel-hover-standard .btn-add>a:focus,
+.basel-price-table .basel-plan-footer>a,
+.basel-price-table .basel-plan-footer>a:hover,
+.basel-price-table .basel-plan-footer>a:focus,
+.basel-info-box.box-style-border .info-btn-wrapper a,
+.basel-info-box.box-style-border .info-btn-wrapper a:hover,
+.basel-info-box.box-style-border .info-btn-wrapper a:focus,
+.basel-info-box2.box-style-border .info-btn-wrapper a,
+.basel-info-box2.box-style-border .info-btn-wrapper a:hover,
+.basel-info-box2.box-style-border .info-btn-wrapper a:focus,
+.basel-hover-quick .woocommerce-variation-add-to-cart .button,
+.basel-hover-quick .woocommerce-variation-add-to-cart .button:hover,
+.basel-hover-quick .woocommerce-variation-add-to-cart .button:focus,
+.wpb_video_wrapper .button-play,
+.basel-navigation .menu>li.callto-btn>a,
+.basel-navigation .menu>li.callto-btn>a:hover,
+.basel-navigation .menu>li.callto-btn>a:focus,
+.basel-dark .products-footer .basel-blog-load-more:hover,
+.basel-dark .products-footer .basel-blog-load-more:focus,
+.basel-dark .products-footer .basel-products-load-more:hover,
+.basel-dark .products-footer .basel-products-load-more:focus,
+.basel-dark .products-footer .basel-portfolio-load-more:hover,
+.basel-dark .products-footer .basel-portfolio-load-more:focus,
+.basel-dark .blog-footer .basel-blog-load-more:hover,
+.basel-dark .blog-footer .basel-blog-load-more:focus,
+.basel-dark .blog-footer .basel-products-load-more:hover,
+.basel-dark .blog-footer .basel-products-load-more:focus,
+.basel-dark .blog-footer .basel-portfolio-load-more:hover,
+.basel-dark .blog-footer .basel-portfolio-load-more:focus,
+.basel-dark .portfolio-footer .basel-blog-load-more:hover,
+.basel-dark .portfolio-footer .basel-blog-load-more:focus,
+.basel-dark .portfolio-footer .basel-products-load-more:hover,
+.basel-dark .portfolio-footer .basel-products-load-more:focus,
+.basel-dark .portfolio-footer .basel-portfolio-load-more:hover,
+.basel-dark .portfolio-footer .basel-portfolio-load-more:focus,
+.basel-dark .feedback-form .wpcf7-submit,
+.basel-dark .mc4wp-form input[type=submit],
+.basel-dark .single-product-content .cart button,
+.basel-dark .single-product-content .comment-form .form-submit input[type=submit],
+.basel-dark .basel-registration-page .basel-switch-to-register,
+.basel-dark .register .button,
+.basel-dark .login .button,
+.basel-dark .lost_reset_password .button,
+.basel-dark .wishlist_table tr td.product-add-to-cart>.add_to_cart.button,
+.basel-dark .woocommerce .cart-actions .coupon .button,
+.basel-dark .feedback-form .wpcf7-submit:hover,
+.basel-dark .mc4wp-form input[type=submit]:hover,
+.basel-dark .single-product-content .cart button:hover,
+.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:hover,
+.basel-dark .basel-registration-page .basel-switch-to-register:hover,
+.basel-dark .register .button:hover,
+.basel-dark .login .button:hover,
+.basel-dark .lost_reset_password .button:hover,
+.basel-dark .wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover,
+.basel-dark .woocommerce .cart-actions .coupon .button:hover,
+.basel-ext-primarybtn-dark:focus,
+.basel-dark .feedback-form .wpcf7-submit:focus,
+.basel-dark .mc4wp-form input[type=submit]:focus,
+.basel-dark .single-product-content .cart button:focus,
+.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:focus,
+.basel-dark .basel-registration-page .basel-switch-to-register:focus,
+.basel-dark .register .button:focus,
+.basel-dark .login .button:focus,
+.basel-dark .lost_reset_password .button:focus,
+.basel-dark .wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus,
+.basel-dark .woocommerce .cart-actions .coupon .button:focus,
+.widget_price_filter .ui-slider .ui-slider-handle,
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget_tag_cloud .tagcloud a:hover,
+.widget_product_tag_cloud .tagcloud a:hover,
+div.bbp-submit-wrapper button,
+div.bbp-submit-wrapper button:hover,
+div.bbp-submit-wrapper button:focus,
+#bbpress-forums .bbp-search-form #bbp_search_submit,
+#bbpress-forums .bbp-search-form #bbp_search_submit:hover,
+#bbpress-forums .bbp-search-form #bbp_search_submit:focus,
+.woocommerce-checkout .select2-container--default .select2-results__option--highlighted[aria-selected],
+.woocommerce-account .select2-container--default .select2-results__option--highlighted[aria-selected],
+.product-video-button a:hover:before,
+.product-360-button a:hover:before,
+.mobile-nav ul li .up-icon,
+.scrollToTop:hover,
+.scrollToTop:focus,
+.categories-opened li a:active,
+.basel-price-table .basel-plan-price,
+.header-categories .secondary-header .mega-navigation,
+.widget_nav_mega_menu,
+.blog-post-loop .meta-post-categories,
+.post-slide .meta-post-categories,
+.slider-title:before,
+.title-wrapper.basel-title-style-simple .title:after,
+.menu-label-new,
+.onsale,
+.color-scheme-light .vc_tta-tabs.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tab.vc_active>a span:after,
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic .vc_tta-tab.vc_active>a span:after,
+.portfolio-with-bg-alt .portfolio-entry:hover .entry-header>.portfolio-info {
+    background-color: #de4641;
+}
+
+.btn.btn-color-primary,
+.button.btn-color-primary,
+button.btn-color-primary,
+.added_to_cart.btn-color-primary,
+input[type=submit].btn-color-primary,
+.btn.btn-color-primary:hover,
+.btn.btn-color-primary:focus,
+.button.btn-color-primary:hover,
+.button.btn-color-primary:focus,
+button.btn-color-primary:hover,
+button.btn-color-primary:focus,
+.added_to_cart.btn-color-primary:hover,
+.added_to_cart.btn-color-primary:focus,
+input[type=submit].btn-color-primary:hover,
+input[type=submit].btn-color-primary:focus,
+.btn.btn-color-primary.btn-style-bordered:hover,
+.btn.btn-color-primary.btn-style-bordered:focus,
+.button.btn-color-primary.btn-style-bordered:hover,
+.button.btn-color-primary.btn-style-bordered:focus,
+button.btn-color-primary.btn-style-bordered:hover,
+button.btn-color-primary.btn-style-bordered:focus,
+.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout,
+.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:hover,
+.widget_shopping_cart .widget_shopping_cart_content .buttons .checkout:focus,
+.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button,
+.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:hover,
+.basel-search-dropdown .basel-search-wrapper .basel-search-inner form button:focus,
+.comments-area .comment-respond input[type=submit],
+.comments-area .comment-respond input[type=submit]:hover,
+.comments-area .comment-respond input[type=submit]:focus,
+.sidebar-container .mc4wp-form input[type=submit],
+.sidebar-container .mc4wp-form input[type=submit]:hover,
+.sidebar-container .mc4wp-form input[type=submit]:focus,
+.footer-container .mc4wp-form input[type=submit],
+.footer-container .mc4wp-form input[type=submit]:hover,
+.footer-container .mc4wp-form input[type=submit]:focus,
+.filters-area .mc4wp-form input[type=submit],
+.filters-area .mc4wp-form input[type=submit]:hover,
+.filters-area .mc4wp-form input[type=submit]:focus,
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a,
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:hover,
+.woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a:focus,
+.woocommerce .checkout_coupon .button,
+.woocommerce .checkout_coupon .button:hover,
+.woocommerce .checkout_coupon .button:focus,
+.woocommerce .place-order input[type=submit],
+.woocommerce .place-order input[type=submit]:hover,
+.woocommerce .place-order input[type=submit]:focus,
+.woocommerce-order-pay #order_review .button,
+.woocommerce-order-pay #order_review .button:hover,
+.woocommerce-order-pay #order_review .button:focus,
+.woocommerce input[name=track],
+.woocommerce input[name=track]:hover,
+.woocommerce input[name=track]:focus,
+.woocommerce input[name=save_account_details],
+.woocommerce input[name=save_address],
+.woocommerce-page input[name=save_account_details],
+.woocommerce-page input[name=save_address],
+.woocommerce input[name=save_account_details]:hover,
+.woocommerce input[name=save_account_details]:focus,
+.woocommerce input[name=save_address]:hover,
+.woocommerce input[name=save_address]:focus,
+.woocommerce-page input[name=save_account_details]:hover,
+.woocommerce-page input[name=save_account_details]:focus,
+.woocommerce-page input[name=save_address]:hover,
+.woocommerce-page input[name=save_address]:focus,
+.search-no-results .not-found .entry-content .searchform #searchsubmit,
+.search-no-results .not-found .entry-content .searchform #searchsubmit:hover,
+.search-no-results .not-found .entry-content .searchform #searchsubmit:focus,
+.error404 .page-content>.searchform #searchsubmit,
+.error404 .page-content>.searchform #searchsubmit:hover,
+.error404 .page-content>.searchform #searchsubmit:focus,
+.no-results .searchform #searchsubmit,
+.no-results .searchform #searchsubmit:hover,
+.no-results .searchform #searchsubmit:focus,
+.woocommerce .return-to-shop .button,
+.woocommerce .return-to-shop .button:hover,
+.woocommerce .return-to-shop .button:focus,
+.basel-hover-excerpt .btn-add a,
+.basel-hover-excerpt .btn-add a:hover,
+.basel-hover-excerpt .btn-add a:focus,
+.basel-hover-standard .btn-add>a,
+.basel-hover-standard .btn-add>a:hover,
+.basel-hover-standard .btn-add>a:focus,
+.basel-price-table .basel-plan-footer>a,
+.basel-price-table .basel-plan-footer>a:hover,
+.basel-price-table .basel-plan-footer>a:focus,
+.basel-info-box.box-style-border .info-btn-wrapper a,
+.basel-info-box.box-style-border .info-btn-wrapper a:hover,
+.basel-info-box.box-style-border .info-btn-wrapper a:focus,
+.basel-info-box2.box-style-border .info-btn-wrapper a,
+.basel-info-box2.box-style-border .info-btn-wrapper a:hover,
+.basel-info-box2.box-style-border .info-btn-wrapper a:focus,
+.basel-hover-quick .woocommerce-variation-add-to-cart .button,
+.basel-hover-quick .woocommerce-variation-add-to-cart .button:hover,
+.basel-hover-quick .woocommerce-variation-add-to-cart .button:focus,
+.wpb_video_wrapper .button-play,
+.basel-dark .read-more-section .btn-read-more,
+.basel-dark .products-footer .basel-blog-load-more,
+.basel-dark .products-footer .basel-products-load-more,
+.basel-dark .products-footer .basel-portfolio-load-more,
+.basel-dark .blog-footer .basel-blog-load-more,
+.basel-dark .blog-footer .basel-products-load-more,
+.basel-dark .blog-footer .basel-portfolio-load-more,
+.basel-dark .portfolio-footer .basel-blog-load-more,
+.basel-dark .portfolio-footer .basel-products-load-more,
+.basel-dark .portfolio-footer .basel-portfolio-load-more,
+.basel-dark .products-footer .basel-blog-load-more:hover,
+.basel-dark .products-footer .basel-blog-load-more:focus,
+.basel-dark .products-footer .basel-products-load-more:hover,
+.basel-dark .products-footer .basel-products-load-more:focus,
+.basel-dark .products-footer .basel-portfolio-load-more:hover,
+.basel-dark .products-footer .basel-portfolio-load-more:focus,
+.basel-dark .blog-footer .basel-blog-load-more:hover,
+.basel-dark .blog-footer .basel-blog-load-more:focus,
+.basel-dark .blog-footer .basel-products-load-more:hover,
+.basel-dark .blog-footer .basel-products-load-more:focus,
+.basel-dark .blog-footer .basel-portfolio-load-more:hover,
+.basel-dark .blog-footer .basel-portfolio-load-more:focus,
+.basel-dark .portfolio-footer .basel-blog-load-more:hover,
+.basel-dark .portfolio-footer .basel-blog-load-more:focus,
+.basel-dark .portfolio-footer .basel-products-load-more:hover,
+.basel-dark .portfolio-footer .basel-products-load-more:focus,
+.basel-dark .portfolio-footer .basel-portfolio-load-more:hover,
+.basel-dark .portfolio-footer .basel-portfolio-load-more:focus,
+.basel-dark .products-footer .basel-blog-load-more:after,
+.basel-dark .products-footer .basel-products-load-more:after,
+.basel-dark .products-footer .basel-portfolio-load-more:after,
+.basel-dark .blog-footer .basel-blog-load-more:after,
+.basel-dark .blog-footer .basel-products-load-more:after,
+.basel-dark .blog-footer .basel-portfolio-load-more:after,
+.basel-dark .portfolio-footer .basel-blog-load-more:after,
+.basel-dark .portfolio-footer .basel-products-load-more:after,
+.basel-dark .portfolio-footer .basel-portfolio-load-more:after,
+.basel-dark .feedback-form .wpcf7-submit,
+.basel-dark .mc4wp-form input[type=submit],
+.basel-dark .single-product-content .cart button,
+.basel-dark .single-product-content .comment-form .form-submit input[type=submit],
+.basel-dark .basel-registration-page .basel-switch-to-register,
+.basel-dark .register .button,
+.basel-dark .login .button,
+.basel-dark .lost_reset_password .button,
+.basel-dark .wishlist_table tr td.product-add-to-cart>.add_to_cart.button,
+.basel-dark .woocommerce .cart-actions .coupon .button,
+.basel-dark .feedback-form .wpcf7-submit:hover,
+.basel-dark .mc4wp-form input[type=submit]:hover,
+.basel-dark .single-product-content .cart button:hover,
+.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:hover,
+.basel-dark .basel-registration-page .basel-switch-to-register:hover,
+.basel-dark .register .button:hover,
+.basel-dark .login .button:hover,
+.basel-dark .lost_reset_password .button:hover,
+.basel-dark .wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover,
+.basel-dark .woocommerce .cart-actions .coupon .button:hover,
+.basel-ext-primarybtn-dark:focus,
+.basel-dark .feedback-form .wpcf7-submit:focus,
+.basel-dark .mc4wp-form input[type=submit]:focus,
+.basel-dark .single-product-content .cart button:focus,
+.basel-dark .single-product-content .comment-form .form-submit input[type=submit]:focus,
+.basel-dark .basel-registration-page .basel-switch-to-register:focus,
+.basel-dark .register .button:focus,
+.basel-dark .login .button:focus,
+.basel-dark .lost_reset_password .button:focus,
+.basel-dark .wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus,
+.basel-dark .woocommerce .cart-actions .coupon .button:focus,
+.cookies-buttons .cookies-accept-btn:hover,
+.cookies-buttons .cookies-accept-btn:focus,
+.blockOverlay:after,
+.widget_shopping_cart .product_list_widget:before,
+.basel-price-table:hover,
+.title-shop .nav-shop ul li a:after,
+.widget_tag_cloud .tagcloud a:hover,
+.widget_product_tag_cloud .tagcloud a:hover,
+div.bbp-submit-wrapper button,
+div.bbp-submit-wrapper button:hover,
+div.bbp-submit-wrapper button:focus,
+#bbpress-forums .bbp-search-form #bbp_search_submit,
+#bbpress-forums .bbp-search-form #bbp_search_submit:hover,
+#bbpress-forums .bbp-search-form #bbp_search_submit:focus,
+.basel-hover-link .swap-elements .btn-add a,
+.basel-hover-link .swap-elements .btn-add a:hover,
+.basel-hover-link .swap-elements .btn-add a:focus,
+.basel-hover-link .swap-elements .btn-add a.loading:after,
+.scrollToTop:hover,
+.scrollToTop:focus,
+blockquote {
+    border-color: #de4641;
+}
+
+.with-animation .info-box-icon svg path {
+    stroke: #de4641;
+}
+
+.added_to_cart,
+.button,
+button,
+input[type=submit],
+.yith-woocompare-widget a.button.compare,
+.basel-dark .basel-registration-page .basel-switch-to-register,
+.basel-dark .login .button,
+.basel-dark .register .button,
+.basel-dark .widget_shopping_cart .buttons a,
+.basel-dark .yith-woocompare-widget a.button.compare,
+.basel-dark .widget_price_filter .price_slider_amount .button,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"] {
+    background-color: #ECECEC;
+}
+
+.added_to_cart,
+.button,
+button,
+input[type=submit],
+.yith-woocompare-widget a.button.compare,
+.basel-dark .basel-registration-page .basel-switch-to-register,
+.basel-dark .login .button,
+.basel-dark .register .button,
+.basel-dark .widget_shopping_cart .buttons a,
+.basel-dark .yith-woocompare-widget a.button.compare,
+.basel-dark .widget_price_filter .price_slider_amount .button,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"] {
+    border-color: #ECECEC;
+}
+
+.added_to_cart:hover,
+.added_to_cart:focus,
+.button:hover,
+.button:focus,
+button:hover,
+button:focus,
+input[type=submit]:hover,
+input[type=submit]:focus,
+.yith-woocompare-widget a.button.compare:hover,
+.yith-woocompare-widget a.button.compare:focus,
+.basel-dark .basel-registration-page .basel-switch-to-register:hover,
+.basel-dark .basel-registration-page .basel-switch-to-register:focus,
+.basel-dark .login .button:hover,
+.basel-dark .login .button:focus,
+.basel-dark .register .button:hover,
+.basel-dark .register .button:focus,
+.basel-dark .widget_shopping_cart .buttons a:hover,
+.basel-dark .widget_shopping_cart .buttons a:focus,
+.basel-dark .yith-woocompare-widget a.button.compare:hover,
+.basel-dark .yith-woocompare-widget a.button.compare:focus,
+.basel-dark .widget_price_filter .price_slider_amount .button:hover,
+.basel-dark .widget_price_filter .price_slider_amount .button:focus,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:hover,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:focus {
+    background-color: #3E3E3E;
+}
+
+.added_to_cart:hover,
+.added_to_cart:focus,
+.button:hover,
+.button:focus,
+button:hover,
+button:focus,
+input[type=submit]:hover,
+input[type=submit]:focus,
+.yith-woocompare-widget a.button.compare:hover,
+.yith-woocompare-widget a.button.compare:focus,
+.basel-dark .basel-registration-page .basel-switch-to-register:hover,
+.basel-dark .basel-registration-page .basel-switch-to-register:focus,
+.basel-dark .login .button:hover,
+.basel-dark .login .button:focus,
+.basel-dark .register .button:hover,
+.basel-dark .register .button:focus,
+.basel-dark .widget_shopping_cart .buttons a:hover,
+.basel-dark .widget_shopping_cart .buttons a:focus,
+.basel-dark .yith-woocompare-widget a.button.compare:hover,
+.basel-dark .yith-woocompare-widget a.button.compare:focus,
+.basel-dark .widget_price_filter .price_slider_amount .button:hover,
+.basel-dark .widget_price_filter .price_slider_amount .button:focus,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:hover,
+.basel-dark .woocommerce .cart-actions input[name="update_cart"]:focus {
+    border-color: #3E3E3E;
+}
+
+.single-product-content .cart .button,
+.woocommerce .cart-actions .coupon .button,
+.added_to_cart.btn-color-black,
+input[type=submit].btn-color-black,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button,
+.basel-hover-quick .quick-shop-btn>a,
+table.compare-list tr.add-to-cart td a {
+    background-color: #000000;
+}
+
+.single-product-content .cart .button,
+.woocommerce .cart-actions .coupon .button,
+.added_to_cart.btn-color-black,
+input[type=submit].btn-color-black,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button,
+.basel-hover-quick .quick-shop-btn>a,
+table.compare-list tr.add-to-cart td a {
+    border-color: #000000;
+}
+
+.basel-hover-alt .btn-add>a {
+    color: #000000;
+}
+
+.single-product-content .cart .button:hover,
+.single-product-content .cart .button:focus,
+.woocommerce .cart-actions .coupon .button:hover,
+.woocommerce .cart-actions .coupon .button:focus,
+.added_to_cart.btn-color-black:hover,
+.added_to_cart.btn-color-black:focus,
+input[type=submit].btn-color-black:hover,
+input[type=submit].btn-color-black:focus,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus,
+.basel-hover-quick .quick-shop-btn>a:hover,
+.basel-hover-quick .quick-shop-btn>a:focus,
+table.compare-list tr.add-to-cart td a:hover,
+table.compare-list tr.add-to-cart td a:focus {
+    background-color: #333333;
+}
+
+.single-product-content .cart .button:hover,
+.single-product-content .cart .button:focus,
+.woocommerce .cart-actions .coupon .button:hover,
+.woocommerce .cart-actions .coupon .button:focus,
+.added_to_cart.btn-color-black:hover,
+.added_to_cart.btn-color-black:focus,
+input[type=submit].btn-color-black:hover,
+input[type=submit].btn-color-black:focus,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:hover,
+.wishlist_table tr td.product-add-to-cart>.add_to_cart.button:focus,
+.basel-hover-quick .quick-shop-btn>a:hover,
+.basel-hover-quick .quick-shop-btn>a:focus,
+table.compare-list tr.add-to-cart td a:hover,
+table.compare-list tr.add-to-cart td a:focus {
+    border-color: #333333;
+}
+
+.basel-hover-alt .btn-add>a:hover,
+.basel-hover-alt .btn-add>a:focus {
+    color: #333333;
+}
+
+.vc_custom_1538723647561 {
+    margin-bottom: 60px !important;
+}
+
+.vc_custom_1538724166839 {
+    margin-top: -100px !important;
+    margin-bottom: 60px !important;
+}
+
+.vc_custom_1455123507718 {
+    margin-bottom: 0px !important;
+}
+
+.vc_custom_1455195117811 {
+    margin-bottom: 65px !important;
+}
+
+.vc_custom_1458063964106 {
+    margin-bottom: 3.5% !important;
+}
+
+.vc_custom_1485260379029 {
+    margin-bottom: 50px !important;
+}
+
+.vc_custom_1452623984056 {
+    margin-top: 0px !important;
+    margin-bottom: -40px !important;
+    background-color: #f4f4f4 !important;
+}
+
+.vc_custom_1566298380485 {
+    margin-top: -40px !important;
+}
+
+.vc_custom_1582870348108 {
+    margin-bottom: 20px !important;
+}
+
+.vc_custom_1582870322315 {
+    margin-bottom: 25px !important;
+    padding-right: 9% !important;
+    padding-left: 9% !important;
+}
+
+.vc_custom_1566976109035 {
+    margin-bottom: 0px !important;
+    padding-top: 12px !important;
+    padding-right: 20px !important;
+    padding-bottom: 12px !important;
+    padding-left: 20px !important;
+    background-color: #0a0a0a !important;
+}
+
+.vc_custom_1582871148815 {
+    margin-bottom: 35px !important;
+}
+
+.vc_custom_1455194261836 {
+    margin-right: 4% !important;
+    margin-bottom: 0px !important;
+    margin-left: 4% !important;
+    border-top-width: 5px !important;
+    border-right-width: 5px !important;
+    border-bottom-width: 5px !important;
+    border-left-width: 5px !important;
+    padding-right: 3% !important;
+    padding-bottom: 0px !important;
+    padding-left: 3% !important;
+    background-color: #ffffff !important;
+    border-left-color: rgba(107, 107, 107, 0.11) !important;
+    border-left-style: solid !important;
+    border-right-color: rgba(107, 107, 107, 0.11) !important;
+    border-right-style: solid !important;
+    border-top-color: rgba(107, 107, 107, 0.11) !important;
+    border-top-style: solid !important;
+    border-bottom-color: rgba(107, 107, 107, 0.11) !important;
+    border-bottom-style: solid !important;
+}
+
+.vc_custom_1453812054824 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    padding-top: 0px !important;
+}
+
+.vc_custom_1453812061167 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    border-left-width: 1px !important;
+    padding-top: 0px !important;
+    border-left-color: #f4f4f4 !important;
+    border-left-style: solid !important;
+}
+
+.vc_custom_1535106619664 {
+    margin-top: -15px !important;
+    
+}
+
+.vc_custom_1540619803811 {
+    margin-bottom: 10px !important;
+}
+
+.vc_custom_1582870385726 {
+    margin-bottom: 25px !important;
+}
+
+.vc_custom_1535093407460 {
+    margin-bottom: 0px !important;
+}
+
+.main-header {
+    width: 100%;
+    margin-bottom: 0px!important;
+}
+
+.vc_custom_1580883612897 {
+    margin-bottom: 25px !important;
+}
+
+</style><noscript><style type="text/css">.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
+.bag {
+    width: 48%!important;
+    /* float: right; */
+    display: inline-block;
+    top: -113px!important;
+    position: relative;
+}
+
+.bags {
+    width: 48%!important;
+    /* float: left; */
+    display: inline-block;
+}
+
+.vc_col-sm-6 {
+    width: 50%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.vc_col-sm-4 {
+    width: 33.33333333%;
+    float: left;
+}
+
+.comment-content img,
+.entry-content img,
+.entry-summary img,
+.wp-caption {
+    max-width: 100%;
+}
+
+.wpb_single_image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+.wpb_single_image .vc_single_image-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.wpb_single_image.vc_align_center {
+    text-align: center;
+}
+
+.wpb_button,
+.wpb_content_element,
+ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 35px;
+}
+.info-box-inner {
+    text-align: center;
+}
+.site-content.col-sm-12 {
+    margin-top: 50px;
+}
+.social .social-icons li i {
+    font-size: 28px;
+    line-height: 0!important;
+    
+    
+}   
+/*.social .social-icons li:after {
+    right: 0;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    content: "";
+    border-width: 0.08rem;
+    border-style: solid;
+    border-color: #000000;
+    border-image: initial;
+    background: white;
+    padding: 0px !important;
+    margin: 0 auto;
+    z-index: -1;
+}*/
+#product-range .tabbable-line > .tab-content img {
+    padding-bottom: 25px;
+}
+.product_detail span {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.product_detail b {
+    padding-bottom: 10px;
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.footer-sidebar .social-icons:before {
+    width: 4px;
+    height: 80px;
+    content: "";
+    display: block;
+    background-color: #000;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -80px;
+    animation: 1s .2s fadeInUp both;
+}
+.footer-sidebar .social-icons li a:after {
+    width: 4px;
+    height: 30px;
+    content: "";
+    display: block;
+    background-color: #000;
+    margin: auto;
+    position: relative;
+    animation: 1s 1.5s zoomIn both;
+    top: 6px;
+}
+.footer-sidebar img {
+    margin-top: -20px;
+}
+.social .social-icons li:hover:after {
+
+    z-index: -9;
+}
+.social ul li {
+    display: block;
+    padding: 10px 0px;
+    margin: 30px auto!important;
+}
+ul.social-icons {
+    position: relative;
+    z-index: 9999;
+}
+
+/*Testimonial css*/
+
+/* text-style */
+.testimonial-section {
+    padding: 50px 0px;
+    float: left;
+    width: 100%;
+}
+#carousel1 .item {
+    height: auto !important;
+}
+#carousel1 .carousel-inner {
+    text-align: center;
+}
+.testimonial-style .testimonial-caption-style {
+  text-shadow: none;
+  top: 0%;
+}
+.testimonial-style .testimonial-authors {
+  font-size: 20px;
+  color: #354052;
+}
+
+#carousel1 ol.carousel-indicators {
+    top: 100%;
+}
+/* carousel-height-control */
+.testimonial-style .carousel-inner > .item {
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 380px;
+}
+/* carousel-left-right-control */
+.testimonial-style .carousel-control.left {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+.testimonial-style .carousel-control.right {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+.testimonial-style .carousel-control {
+  color: #354052;
+}
+.testimonial-style .carousel-control:hover {
+  color: #354052;
+  text-decoration: none;
+  transition: background-color 1s ease;
+}
+/* indicators */
+.testimonial-style .carousel-indicators .active {
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  transition: background 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.testimonial-style .carousel-indicators li {
+  border: 2px solid #354052;
+  background-color: #354052;
+}
+
+
+
+/*Our partner section css*/
+
+/* Slider */
+#partner{
+width: 100%;
+padding-bottom: 50px;
+}
+.partner-logo .slick-slide {
+    margin: 0px 20px;
+}
+.partner-logo .slick-slide img {
+    width: 100%;
+}
+.partner-logo .slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.partner-logo .slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.partner-logo .slick-list:focus{
+    outline: none;
+}
+.partner-logo .partner-logo .slick-list.dragging{
+    cursor: pointer;
+    cursor: hand;
+}
+.partner-logo .slick-slider .slick-track,
+.partner-logo .slick-slider .slick-list{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.partner-logo .slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.partner-logo .slick-track:before,
+.partner-logo .slick-track:after{
+    display: table;
+    content: '';
+}
+.partner-logo .slick-track:after{
+    clear: both;
+}
+.partner-logo .slick-loading .slick-track{
+    visibility: hidden;
+}
+.partner-logo .slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide{
+    float: right;
+}
+
+.partner-logo .slick-slide.slick-loading img{
+    display: none;
+}
+.partner-logo .slick-slide.dragging img{
+    pointer-events: none;
+}
+.partner-logo .slick-initialized .slick-slide{
+    display: block;
+}
+.partner-logo .slick-loading .slick-slide{
+    visibility: hidden;
+}
+.partner-logo .slick-vertical .slick-slide{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.partner-logo .slick-arrow.slick-hidden{
+    display: none;
+}
+.partner-logo .slick-initialized .slick-slide .slide{
+text-align: center;
+}
+
+.gallery-images.owl-carousel.owl-loaded.owl-drag {
+    float: left;
+    width: 100%;
+}
+#infra-page h2 {
+    margin: 0;
+}
+
+
+
+/* Default mode */
+#product-range .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+    text-align: center;
+}
+#product-range .tabbable-line > .nav-tabs > li {
+    margin-right: 4px !important;
+    margin-left: 8px !important;
+}
+#product-range .tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    color: #737373;
+    font-size: 12px;
+    padding: 4px 0px 6px 0px;
+    line-height: 14px;
+    margin-bottom: 8px;
+    border: 1px solid #7d7d7d;
+    border-radius: 0px;
+}
+#product-range .tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+#product-range .tabbable-line > .nav-tabs > li > a:hover {
+    background-color: #1468b3 !important;
+    border: 1px solid #7d7d7d;
+    color: #fff !important;
+}
+
+#product-range .tabbable-line > .nav-tabs > li.open > a > i, #product-range .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+#product-range .tabbable-line > .nav-tabs > li.open .dropdown-menu, #product-range .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+
+#product-range .tabbable-line > .nav-tabs > li.active > a {
+    border: 1px solid #7d7d7d;
+    color: #fff;
+    border-radius: 0;
+    background-color: #1468b3;
+}
+#product-range .tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+#product-range .tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+#product-range .portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+#product-range .tabbable-line > .nav-tabs > li.active:hover a{
+ background-color: #1468b3 !important;
+}
+#product-range ul.nav.nav-tabs img {
+    width: 175px;
+}
+#product-range .tabbable-line > .nav-tabs > li.last {
+    margin-right: 0 !important;
+}
+
+#product-range .tab-content p {
+    margin-top: 20px;
+}
+
+.row.clt {
+    padding-top: 3rem;
+}
+
+.wow img {
+    width: 55%;
+}
+
+
+/*Query Page CSS*/
+
+.query-page {
+    background-color: #F8F8F8;
+    float: left;
+    width: 100%;
+}
+form#query-form {
+    float: left;
+    width: 100%;
+}
+.form-left .form-group {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 123px;
+}
+.form-left .form-group label{
+width: 100%;
+}
+.form-left .form-group input {
+    border: none !important;
+        margin: 0;
+    border-bottom: 1px solid #c6c6c6 !important;
+}
+.form-left .form-group .one span {
+    margin-left: 6px;
+}
+.query-btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.query-btn a {
+    background-color: #033F86;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+
+
+/*Media Query*/
+@media screen and (max-width: 1200px) {
+#product-range ul.nav.nav-tabs img {
+    width: 141px;
+}
+}
+@media screen and (max-width: 992px) {
+#product-range ul.nav.nav-tabs img {
+    width: 97px;
+}
+.social {
+    display: none;
+}
+}
+@media screen and (max-width: 768px) {
+.main-footer .textwidget img {
+
+    display: none !important;
+}
+    #product-range .tabbable-line > .nav-tabs > li {
+    margin-right: 37px;
+}
+    #product-range .tabbable-line > .nav-tabs > li > a {
+    font-size: 10px;
+    padding: 4px 4px 6px 4px;
+}
+    #product-range ul.nav.nav-tabs img {
+    width: 97px;
+    height: 97px;
+}
+ul.social-icons {
+    display: none;
+}
+.social {
+    display: none;
+}
+.contact ul.social-icons {
+    display: block;
+}
+}
+
+@media screen and (max-width: 680px) {
+#product-range .tabbable-line > .nav-tabs > li {
+    margin-right: 24px;
+}
+}
+
+@media screen and (max-width: 575px) {
+#product-range .tabbable-line > .nav-tabs > li {
+    margin-right: 4px;
+}
+}
+@media screen and (max-width: 480px) {
+    .vc_col-sm-6 {
+        width: 100%;
+    }
+    .vc_col-sm-4 {
+        width: 100%;
+    }
+    .bag {
+    width: 100%!important;
+    /* float: right; */
+    display: inline-block;
+    top: -52px!important;
+    position: relative;
+}
+    .bags {
+        width: 100%!important;
+        /* float: left; */
+        display: inline-block;
+    }
+    .wow img {
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+}
+.contact ul.social-icons {
+    display: block;
+}
+.row.clt {
+    padding-top: 1rem;
+}
+}
+
+
+
+
+
